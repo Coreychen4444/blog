@@ -20,7 +20,13 @@ async function walk(dir) {
   for (const e of entries) {
     const full = join(dir, e.name);
     if (e.isDirectory()) out.push(...(await walk(full)));
-    else if (e.isFile() && e.name.endsWith(".md")) out.push(full);
+    else if (
+      e.isFile() &&
+      e.name.endsWith(".md") &&
+      !/^readme\.md$/i.test(e.name)
+    ) {
+      out.push(full);
+    }
   }
   return out;
 }
