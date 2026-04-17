@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-04-17T09:12:19.779Z",
+  "count": 6,
+  "posts": [
+    {
+      "slug": "travel/bangkok-street-food-odyssey",
+      "path": "posts/travel/bangkok-street-food-odyssey.md",
+      "title": "Bangkok Street Food Odyssey: 72 Hours of Eating Everything",
+      "topic": "travel",
+      "type": "essay",
+      "status": "published",
+      "date": "2026-04-01",
+      "updatedDate": null,
+      "excerpt": "A three-day deep dive into Bangkok's street food scene — from midnight pad thai in Chinatown to dawn congee at a 50-year-old stall, tracing the city's culinary DNA one bite at a time.",
+      "tags": [
+        "Thailand",
+        "Bangkok",
+        "Food",
+        "Street Food",
+        "Culture"
+      ],
+      "readTime": 18,
+      "featured": false
+    },
+    {
+      "slug": "tech/gorm-preload-mechanism",
+      "path": "posts/tech/gorm-preload-mechanism.md",
+      "title": "Deep Dive into GORM Preload Mechanism",
+      "topic": "tech",
+      "type": "essay",
+      "status": "published",
+      "date": "2026-03-15",
+      "updatedDate": null,
+      "excerpt": "Understanding how GORM's Preload works under the hood — from lazy loading pitfalls to optimized eager loading strategies in Go microservices.",
+      "tags": [
+        "Go",
+        "GORM",
+        "MySQL",
+        "Performance"
+      ],
+      "readTime": 8,
+      "featured": false
+    },
+    {
+      "slug": "travel/singapore-hawker-culture",
+      "path": "posts/travel/singapore-hawker-culture.md",
+      "title": "Singapore Hawker Culture: A Food Journey",
+      "topic": "travel",
+      "type": "essay",
+      "status": "published",
+      "date": "2026-03-01",
+      "updatedDate": null,
+      "excerpt": "Exploring Singapore's UNESCO-recognized hawker centers — from Maxwell Food Centre to Lau Pa Sat, discovering the soul of local cuisine.",
+      "tags": [
+        "Singapore",
+        "Food",
+        "Culture"
+      ],
+      "readTime": 6,
+      "featured": false
+    },
+    {
+      "slug": "tech/redis-cache-architecture",
+      "path": "posts/tech/redis-cache-architecture.md",
+      "title": "Building a 7-Layer Redis Cache Architecture",
+      "topic": "tech",
+      "type": "case-note",
+      "status": "published",
+      "date": "2026-02-20",
+      "updatedDate": null,
+      "excerpt": "How we designed a multi-layer Redis caching strategy for our user service — from bloom filters to pipeline-batched operations.",
+      "tags": [
+        "Redis",
+        "Architecture",
+        "Caching",
+        "Go"
+      ],
+      "readTime": 12,
+      "featured": true
+    },
+    {
+      "slug": "tech/kafka-cross-pod-broadcasting",
+      "path": "posts/tech/kafka-cross-pod-broadcasting.md",
+      "title": "Cross-Pod Message Broadcasting with Kafka",
+      "topic": "tech",
+      "type": "essay",
+      "status": "published",
+      "date": "2026-01-10",
+      "updatedDate": null,
+      "excerpt": "Solving the multi-instance WebSocket broadcasting problem using Kafka consumer groups and Redis-tracked connection state.",
+      "tags": [
+        "Kafka",
+        "WebSocket",
+        "Distributed Systems",
+        "Go"
+      ],
+      "readTime": 10,
+      "featured": true
+    },
+    {
+      "slug": "travel/japan-temple-hopping",
+      "path": "posts/travel/japan-temple-hopping.md",
+      "title": "Temple Hopping in Kyoto: Beyond the Tourist Trail",
+      "topic": "travel",
+      "type": "essay",
+      "status": "published",
+      "date": "2025-12-15",
+      "updatedDate": null,
+      "excerpt": "Finding serenity in Kyoto's lesser-known temples — away from the crowds of Kinkaku-ji, into the moss gardens of Gio-ji and the bamboo paths of Adashino Nenbutsu-ji.",
+      "tags": [
+        "Japan",
+        "Kyoto",
+        "Temples",
+        "Culture"
+      ],
+      "readTime": 7,
+      "featured": false
+    }
+  ]
+}
