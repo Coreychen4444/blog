@@ -5,6 +5,7 @@ type: "essay"
 status: "published"
 date: "2026-01-10"
 excerpt: "Solving the multi-instance WebSocket broadcasting problem using Kafka consumer groups and Redis-tracked connection state."
+author: "Corey Chen"
 tags: ["Kafka", "WebSocket", "Distributed Systems", "Go"]
 readTime: 10
 featured: true

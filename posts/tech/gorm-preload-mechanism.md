@@ -5,6 +5,7 @@ type: "essay"
 status: "published"
 date: "2026-03-15"
 excerpt: "Understanding how GORM's Preload works under the hood — from lazy loading pitfalls to optimized eager loading strategies in Go microservices."
+author: "Corey Chen"
 tags: ["Go", "GORM", "MySQL", "Performance"]
 readTime: 8
 ---

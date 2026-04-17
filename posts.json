@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T09:12:19.779Z",
+  "generatedAt": "2026-04-17T09:24:51.579Z",
   "count": 6,
   "posts": [
     {
@@ -12,6 +12,8 @@
       "date": "2026-04-01",
       "updatedDate": null,
       "excerpt": "A three-day deep dive into Bangkok's street food scene — from midnight pad thai in Chinatown to dawn congee at a 50-year-old stall, tracing the city's culinary DNA one bite at a time.",
+      "author": "Corey Chen",
+      "authorUrl": null,
       "tags": [
         "Thailand",
         "Bangkok",
@@ -32,6 +34,8 @@
       "date": "2026-03-15",
       "updatedDate": null,
       "excerpt": "Understanding how GORM's Preload works under the hood — from lazy loading pitfalls to optimized eager loading strategies in Go microservices.",
+      "author": "Corey Chen",
+      "authorUrl": null,
       "tags": [
         "Go",
         "GORM",
@@ -51,6 +55,8 @@
       "date": "2026-03-01",
       "updatedDate": null,
       "excerpt": "Exploring Singapore's UNESCO-recognized hawker centers — from Maxwell Food Centre to Lau Pa Sat, discovering the soul of local cuisine.",
+      "author": "Corey Chen",
+      "authorUrl": null,
       "tags": [
         "Singapore",
         "Food",
@@ -69,6 +75,8 @@
       "date": "2026-02-20",
       "updatedDate": null,
       "excerpt": "How we designed a multi-layer Redis caching strategy for our user service — from bloom filters to pipeline-batched operations.",
+      "author": "Corey Chen",
+      "authorUrl": null,
       "tags": [
         "Redis",
         "Architecture",
@@ -88,6 +96,8 @@
       "date": "2026-01-10",
       "updatedDate": null,
       "excerpt": "Solving the multi-instance WebSocket broadcasting problem using Kafka consumer groups and Redis-tracked connection state.",
+      "author": "Corey Chen",
+      "authorUrl": null,
       "tags": [
         "Kafka",
         "WebSocket",
@@ -107,6 +117,8 @@
       "date": "2025-12-15",
       "updatedDate": null,
       "excerpt": "Finding serenity in Kyoto's lesser-known temples — away from the crowds of Kinkaku-ji, into the moss gardens of Gio-ji and the bamboo paths of Adashino Nenbutsu-ji.",
+      "author": "Corey Chen",
+      "authorUrl": null,
       "tags": [
         "Japan",
         "Kyoto",

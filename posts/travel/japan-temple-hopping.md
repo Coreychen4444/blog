@@ -5,6 +5,7 @@ type: "essay"
 status: "published"
 date: "2025-12-15"
 excerpt: "Finding serenity in Kyoto's lesser-known temples — away from the crowds of Kinkaku-ji, into the moss gardens of Gio-ji and the bamboo paths of Adashino Nenbutsu-ji."
+author: "Corey Chen"
 tags: ["Japan", "Kyoto", "Temples", "Culture"]
 readTime: 7
 ---

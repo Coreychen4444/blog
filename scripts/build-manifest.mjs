@@ -12,7 +12,7 @@ const REPO_ROOT = join(__dirname, "..");
 const POSTS_DIR = join(REPO_ROOT, "posts");
 const OUTPUT = join(REPO_ROOT, "posts.json");
 
-const REQUIRED = ["title", "topic", "type", "status", "date", "excerpt", "tags", "readTime"];
+const REQUIRED = ["title", "topic", "type", "status", "date", "excerpt", "author", "tags", "readTime"];
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -105,6 +105,8 @@ async function main() {
       date: fm.date,
       updatedDate: fm.updatedDate || null,
       excerpt: fm.excerpt,
+      author: fm.author,
+      authorUrl: fm.authorUrl || null,
       tags: Array.isArray(fm.tags) ? fm.tags : [],
       readTime: fm.readTime,
       featured: fm.featured === true,

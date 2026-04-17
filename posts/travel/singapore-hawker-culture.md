@@ -5,6 +5,7 @@ type: "essay"
 status: "published"
 date: "2026-03-01"
 excerpt: "Exploring Singapore's UNESCO-recognized hawker centers — from Maxwell Food Centre to Lau Pa Sat, discovering the soul of local cuisine."
+author: "Corey Chen"
 tags: ["Singapore", "Food", "Culture"]
 readTime: 6
 ---

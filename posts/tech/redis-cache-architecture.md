@@ -5,6 +5,7 @@ type: "case-note"
 status: "published"
 date: "2026-02-20"
 excerpt: "How we designed a multi-layer Redis caching strategy for our user service — from bloom filters to pipeline-batched operations."
+author: "Corey Chen"
 tags: ["Redis", "Architecture", "Caching", "Go"]
 readTime: 12
 featured: true

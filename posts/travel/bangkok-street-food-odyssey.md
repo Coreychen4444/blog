@@ -5,6 +5,7 @@ type: "essay"
 status: "published"
 date: "2026-04-01"
 excerpt: "A three-day deep dive into Bangkok's street food scene — from midnight pad thai in Chinatown to dawn congee at a 50-year-old stall, tracing the city's culinary DNA one bite at a time."
+author: "Corey Chen"
 tags: ["Thailand", "Bangkok", "Food", "Street Food", "Culture"]
 readTime: 18
 ---
