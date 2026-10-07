@@ -18,8 +18,9 @@ GitHub-as-CMS pipeline (this repo is the source of truth).
 | **tech** | Backend engineering, Go, distributed systems, MySQL/Redis/Kafka |
 | **travel** | Essays from trips — food, streets, people |
 | **finance** | Investing and markets, from first principles |
+| **thoughts** | Essays on technology, society and where things are heading |
 
-Browse by topic: [`posts/tech/`](posts/tech) · [`posts/travel/`](posts/travel) · [`posts/finance/`](posts/finance)
+Browse by topic: [`posts/tech/`](posts/tech) · [`posts/travel/`](posts/travel) · [`posts/finance/`](posts/finance) · [`posts/thoughts/`](posts/thoughts)
 
 ## Reuse and attribution
 
@@ -47,7 +48,8 @@ interest, open an issue.
 posts/
 ├── tech/       # Backend engineering, Go, systems
 ├── travel/     # Essays and food notes
-└── finance/    # Investing and markets
+├── finance/    # Investing and markets
+└── thoughts/   # Essays on tech, society and the future
 posts.json      # Auto-generated manifest — do not edit by hand
 scripts/
 └── build-manifest.mjs
@@ -65,7 +67,7 @@ LICENSE-CODE    # MIT (code)
    ```yaml
    ---
    title: "Post title"
-   topic: "tech"           # tech | travel | finance
+   topic: "tech"           # tech | travel | finance | thoughts
    type: "essay"           # essay | note | case-note
    status: "published"     # published | draft | updated
    date: "2026-04-17"

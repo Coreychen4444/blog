@@ -1,7 +1,72 @@
 {
-  "generatedAt": "2026-04-17T09:38:12.103Z",
-  "count": 6,
+  "generatedAt": "2026-10-07T08:41:57.406Z",
+  "count": 11,
   "posts": [
+    {
+      "slug": "thoughts/end-of-traditional-social-currency",
+      "path": "posts/thoughts/end-of-traditional-social-currency.md",
+      "title": "传统社交货币在AI时代的落幕",
+      "topic": "thoughts",
+      "type": "essay",
+      "status": "draft",
+      "date": "2026-10-07",
+      "updatedDate": null,
+      "excerpt": "AI能读懂你之后，豪车、名表和名校还剩多少分量？",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "AI Agent",
+        "数字分身",
+        "区块链",
+        "社交货币"
+      ],
+      "readTime": 9,
+      "featured": false
+    },
+    {
+      "slug": "finance/market-traffic-signal-phase-theory",
+      "path": "posts/finance/market-traffic-signal-phase-theory.md",
+      "title": "市场红绿灯相位理论：从一次过马路，理解宏观交易、技术交易与投机交易",
+      "topic": "finance",
+      "type": "essay",
+      "status": "draft",
+      "date": "2026-08-30",
+      "updatedDate": null,
+      "excerpt": "宏观交易者看灯的运行逻辑，技术交易者统计灯的历史规律，投机交易者甚至不看灯——他直接看车。",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "交易理论",
+        "宏观交易",
+        "技术分析",
+        "投机交易",
+        "风险管理"
+      ],
+      "readTime": 40,
+      "featured": false
+    },
+    {
+      "slug": "travel/tokyo-yokohama-solo-trip-2026",
+      "path": "posts/travel/tokyo-yokohama-solo-trip-2026.md",
+      "title": "Tokyo + Yokohama Solo Trip · 2026.5.15-5.21",
+      "topic": "travel",
+      "type": "note",
+      "status": "draft",
+      "date": "2026-06-10",
+      "updatedDate": null,
+      "excerpt": "东京横滨 6 晚独行攻略：横滨港未来、三溪园、镰仓江之岛、Shibuya Sky、新宿御苑，逐日时间表与实用提示。",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "Japan",
+        "Tokyo",
+        "Yokohama",
+        "Kamakura",
+        "Itinerary"
+      ],
+      "readTime": 6,
+      "featured": false
+    },
     {
       "slug": "travel/bangkok-street-food-odyssey",
       "path": "posts/travel/bangkok-street-food-odyssey.md",
@@ -46,6 +111,28 @@
       "featured": false
     },
     {
+      "slug": "finance/pm-valorant-live-betting-strategy",
+      "path": "posts/finance/pm-valorant-live-betting-strategy.md",
+      "title": "PM上瓦的下注策略",
+      "topic": "finance",
+      "type": "note",
+      "status": "draft",
+      "date": "2026-03-09",
+      "updatedDate": "2026-03-15",
+      "excerpt": "PM上瓦罗兰特滚球赔率几乎只绑定比分和人数差，机器人看不到经济局、换边和大招这些软信息。",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "Polymarket",
+        "Valorant",
+        "电竞",
+        "信息差",
+        "交易策略"
+      ],
+      "readTime": 14,
+      "featured": false
+    },
+    {
       "slug": "travel/singapore-hawker-culture",
       "path": "posts/travel/singapore-hawker-culture.md",
       "title": "Singapore Hawker Culture: A Food Journey",
@@ -63,6 +150,28 @@
         "Culture"
       ],
       "readTime": 6,
+      "featured": false
+    },
+    {
+      "slug": "finance/photonics-supply-chain-notes",
+      "path": "posts/finance/photonics-supply-chain-notes.md",
+      "title": "光模块产业链的思考与总结",
+      "topic": "finance",
+      "type": "note",
+      "status": "draft",
+      "date": "2026-02-25",
+      "updatedDate": null,
+      "excerpt": "拆解AI数据中心光互联的7步供应链：稀缺环节捕获最多价值，瓶颈全部集中在上游。",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "光模块",
+        "光子学",
+        "AI基础设施",
+        "美股",
+        "供应链"
+      ],
+      "readTime": 10,
       "featured": false
     },
     {
