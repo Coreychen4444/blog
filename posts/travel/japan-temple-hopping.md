@@ -1,5 +1,6 @@
 ---
 title: "Temple Hopping in Kyoto: Beyond the Tourist Trail"
+lang: "en"
 topic: "travel"
 type: "essay"
 status: "published"

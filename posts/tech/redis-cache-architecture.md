@@ -1,5 +1,6 @@
 ---
 title: "Building a 7-Layer Redis Cache Architecture"
+lang: "en"
 topic: "tech"
 type: "case-note"
 status: "draft"

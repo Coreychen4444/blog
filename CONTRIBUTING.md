@@ -16,10 +16,18 @@ open a PR. No issue needed. Small PRs get merged fast.
 
 ### Translations (open an issue first)
 
-If you'd like to translate a post, open an issue first so we can coordinate.
-Translations live as separate files (e.g., `posts/tech/foo.zh.md`) with a
-`translatedFrom` field in the frontmatter. Once accepted, translations are
-linked from the original post.
+Every published post is already available in English, Simplified Chinese,
+Traditional Chinese (Taiwan) and Japanese. Corrections to a translation are
+welcome as PRs; for a new language, open an issue first.
+
+Translations live in a parallel tree, never next to the original:
+`i18n/<lang>/<topic>/<name>.md` translates `posts/<topic>/<name>.md`, where
+`<lang>` is `en`, `zh`, `zh-TW` or `ja`. The frontmatter has
+`translatedFrom: "<topic>/<name>"`, `lang`, the translated `title` and
+`excerpt`, optionally `readTime`, and the original's `sourceHash`; everything
+else is inherited from the original. A translation must be faithful: no added
+facts, numbers or opinions, and code blocks unchanged apart from prose
+comments. Details: [`posts/README.md`](posts/README.md#languages-and-translations).
 
 ### Content suggestions (open an issue)
 
@@ -39,7 +47,7 @@ often become posts.
 
 By submitting a PR, you agree that:
 
-- **Prose contributions** (edits to `posts/**/*.md`, `README.md`, etc.) are
+- **Prose contributions** (edits to `posts/**/*.md`, `i18n/**/*.md`, `README.md`, etc.) are
   licensed under **CC BY-SA 4.0**, same as the rest of the repo.
 - **Code contributions** (edits to `scripts/`, `.github/workflows/`, etc.)
   are licensed under **MIT**, same as `LICENSE-CODE`.
@@ -51,10 +59,11 @@ section at the bottom of the post.
 
 ## Local development
 
-To regenerate `posts.json` locally after editing posts:
+To regenerate `posts.json` locally after editing posts or translations:
 
 ```bash
 node scripts/build-manifest.mjs
+node scripts/i18n.mjs status      # missing / stale translations
 ```
 
 You don't strictly need to commit `posts.json` — the GitHub Action will

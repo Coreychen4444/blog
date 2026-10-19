@@ -1,5 +1,6 @@
 ---
 title: "Bangkok Street Food Odyssey: 72 Hours of Eating Everything"
+lang: "en"
 topic: "travel"
 type: "essay"
 status: "published"

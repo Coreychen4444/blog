@@ -9,7 +9,9 @@ The content is open source: share it, adapt it, translate it — just give credi
 and keep derivatives under the same license.
 
 Rendered at **[coreyverse.dev/blog](https://coreyverse.dev/blog)** via a
-GitHub-as-CMS pipeline (this repo is the source of truth).
+GitHub-as-CMS pipeline (this repo is the source of truth). Posts are written
+in one language (often Chinese) and published in four: English, 简体中文,
+繁體中文 and 日本語 — see [Languages](#languages).
 
 ## What's inside
 
@@ -24,7 +26,7 @@ Browse by topic: [`posts/tech/`](posts/tech) · [`posts/travel/`](posts/travel) 
 
 ## Reuse and attribution
 
-Everything in `posts/` is under **CC BY-SA 4.0**. You can:
+Everything in `posts/` and `i18n/` is under **CC BY-SA 4.0**. You can:
 
 - **Quote, translate, repost, remix** — in any medium, commercial or not.
 - **Required:** credit _Corey Chen_, link back to the source post on
@@ -45,14 +47,18 @@ interest, open an issue.
 ## Repo structure
 
 ```
-posts/
-├── tech/       # Backend engineering, Go, systems
-├── travel/     # Essays and food notes
-├── finance/    # Investing and markets
-└── thoughts/   # Essays on tech, society and the future
-posts.json      # Auto-generated manifest — do not edit by hand
+posts/                  # Originals, one per post
+├── tech/               # Backend engineering, Go, systems
+├── travel/             # Essays and food notes
+├── finance/            # Investing and markets
+└── thoughts/           # Essays on tech, society and the future
+i18n/                   # Translations: i18n/<lang>/<topic>/<name>.md
+├── en/  ├── zh/  ├── zh-TW/  └── ja/
+posts.json              # Auto-generated manifest — do not edit by hand
 scripts/
-└── build-manifest.mjs
+├── build-manifest.mjs  # posts/ + i18n/ → posts.json
+├── i18n.mjs            # translation status / sourceHash helper
+└── lib/posts.mjs       # shared frontmatter parser, LANGS, sourceHash
 .github/
 ├── workflows/manifest.yml
 └── ISSUE_TEMPLATE/
@@ -67,6 +73,7 @@ LICENSE-CODE    # MIT (code)
    ```yaml
    ---
    title: "Post title"
+   lang: "en"              # en | zh | zh-TW | ja — the language it is written in
    topic: "tech"           # tech | travel | finance | thoughts
    type: "essay"           # essay | note | case-note
    status: "published"     # published | draft | updated
@@ -83,15 +90,27 @@ LICENSE-CODE    # MIT (code)
 
 2. Write the body in standard CommonMark Markdown. Fenced code blocks with
    language hints are highlighted via Shiki on the rendered site.
-3. Commit + push to `main`. The GitHub Action regenerates `posts.json`
-   automatically.
-4. `coreyverse` will pick it up on the next request (30-minute cache TTL).
+3. Add translations under `i18n/<lang>/<topic>/<slug>.md` (see
+   [Languages](#languages)).
+4. Commit + push to `main`. The GitHub Action regenerates `posts.json`
+   and triggers a rebuild of coreyverse.dev.
 
 ### Local manifest build
 
 ```bash
-node scripts/build-manifest.mjs
+node scripts/build-manifest.mjs   # fails on broken frontmatter or translation links
+node scripts/i18n.mjs status      # which translations are missing or stale
 ```
+
+## Languages
+
+Each post has one original under `posts/` and up to three translations under
+`i18n/<lang>/`, with the same `<topic>/<slug>` path. The manifest lists a
+post's original language (`lang`) and its translations; translations never
+appear as separate posts. Each locale of the site shows its own translation of
+the title, excerpt and body, falls back to the original with a note when a
+translation is missing, and flags translations whose original has changed
+since (`sourceHash`). Full rules: [`posts/README.md`](posts/README.md#languages-and-translations).
 
 ## Contact
 

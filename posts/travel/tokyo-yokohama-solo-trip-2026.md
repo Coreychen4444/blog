@@ -1,5 +1,6 @@
 ---
 title: "Tokyo + Yokohama Solo Trip · 2026.5.15-5.21"
+lang: "zh"
 topic: "travel"
 type: "note"
 status: "draft"

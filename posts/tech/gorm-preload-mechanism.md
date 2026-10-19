@@ -1,5 +1,6 @@
 ---
 title: "Deep Dive into GORM Preload Mechanism"
+lang: "en"
 topic: "tech"
 type: "essay"
 status: "published"

@@ -5,7 +5,8 @@ on:
     branches: [main]
     paths:
       - "posts/**"
-      - "scripts/build-manifest.mjs"
+      - "i18n/**"
+      - "scripts/**"
       - ".github/workflows/manifest.yml"
   workflow_dispatch:
 

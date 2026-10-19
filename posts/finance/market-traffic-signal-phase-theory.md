@@ -1,5 +1,6 @@
 ---
 title: "市场红绿灯相位理论：从一次过马路，理解宏观交易、技术交易与投机交易"
+lang: "zh"
 topic: "finance"
 type: "essay"
 status: "draft"
