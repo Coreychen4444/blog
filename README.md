@@ -1,3 +1,5 @@
+English | [简体中文](README.zh-CN.md)
+
 # Corey's Blog
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/content-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
