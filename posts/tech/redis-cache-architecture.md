@@ -2,7 +2,7 @@
 title: "Building a 7-Layer Redis Cache Architecture"
 topic: "tech"
 type: "case-note"
-status: "published"
+status: "draft"
 date: "2026-02-20"
 excerpt: "How we designed a multi-layer Redis caching strategy for our user service — from bloom filters to pipeline-batched operations."
 author: "Corey Chen"

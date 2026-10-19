@@ -8,11 +8,12 @@ excerpt: "Understanding how GORM's Preload works under the hood — from lazy lo
 author: "Corey Chen"
 tags: ["Go", "GORM", "MySQL", "Performance"]
 readTime: 8
+featured: true
 ---
 
-GORM's `Preload` is one of the most powerful features for handling relational data in Go. But without understanding its internals, it's easy to fall into N+1 query traps that silently kill your service performance. I've spent enough late nights staring at slow-query logs to know that Preload's convenience has a price — and the price is paid in round trips, not CPU.
+GORM's `Preload` is one of the most powerful features for handling relational data in Go. But without understanding its internals, it's easy to fall into N+1 query traps that silently hurt your service's performance. Preload's convenience has a price, and the price is paid in round trips, not CPU.
 
-This post is the note I wish I had when I started. We'll walk through exactly what SQL `Preload` generates, when to prefer `Joins`, how to keep the query count bounded, and the production patterns I've landed on after shipping this in services that handle millions of requests a day.
+This post is the note I wish I had when I started. We'll walk through exactly what SQL `Preload` generates, when to prefer `Joins`, how to keep the query count bounded, and the patterns I reach for in production Go services.
 
 ## The N+1 Problem Preload Tries to Solve
 
@@ -142,7 +143,7 @@ db.Preload("Orders", func(tx *gorm.DB) *gorm.DB {
 }).Find(&users)
 ```
 
-I've seen this alone cut response times by 30% on endpoints that touched a BLOB column nobody actually used.
+This matters most when the child table carries large columns (JSON snapshots, TEXT, BLOB) that the endpoint never reads: selecting only the needed columns shrinks every row the database has to read, sort and send.
 
 ## Production Tips
 

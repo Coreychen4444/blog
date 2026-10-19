@@ -15,6 +15,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Cloudflare Pages deploy hook for coreyverse.dev (repo secret). Empty until the site moves to Pages.
+      DEPLOY_HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
     steps:
       - uses: actions/checkout@v4
 
@@ -36,3 +39,7 @@ jobs:
           else
             echo "posts.json unchanged"
           fi
+
+      - name: Rebuild coreyverse.dev
+        if: ${{ env.DEPLOY_HOOK != '' }}
+        run: curl -fsS -X POST "$DEPLOY_HOOK"

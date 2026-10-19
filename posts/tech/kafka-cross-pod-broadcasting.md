@@ -2,7 +2,7 @@
 title: "Cross-Pod Message Broadcasting with Kafka"
 topic: "tech"
 type: "essay"
-status: "published"
+status: "draft"
 date: "2026-01-10"
 excerpt: "Solving the multi-instance WebSocket broadcasting problem using Kafka consumer groups and Redis-tracked connection state."
 author: "Corey Chen"
