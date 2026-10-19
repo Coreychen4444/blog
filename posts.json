@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-10-19T23:15:03.773Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T23:42:10.582Z",
   "count": 10,
   "posts": [
     {
@@ -21,7 +22,10 @@
         "社交货币"
       ],
       "readTime": 9,
-      "featured": false
+      "featured": false,
+      "lang": "zh",
+      "sourceHash": "1bd45929ff730006",
+      "translations": []
     },
     {
       "slug": "finance/market-traffic-signal-phase-theory",
@@ -43,7 +47,10 @@
         "风险管理"
       ],
       "readTime": 40,
-      "featured": false
+      "featured": false,
+      "lang": "zh",
+      "sourceHash": "feb1c3d23578b23a",
+      "translations": []
     },
     {
       "slug": "travel/tokyo-yokohama-solo-trip-2026",
@@ -65,7 +72,10 @@
         "Itinerary"
       ],
       "readTime": 6,
-      "featured": false
+      "featured": false,
+      "lang": "zh",
+      "sourceHash": "8ad1b3a915a3694b",
+      "translations": []
     },
     {
       "slug": "travel/bangkok-street-food-odyssey",
@@ -87,7 +97,38 @@
         "Culture"
       ],
       "readTime": 18,
-      "featured": false
+      "featured": false,
+      "lang": "en",
+      "sourceHash": "47a6ce0af131b587",
+      "translations": [
+        {
+          "lang": "zh",
+          "path": "i18n/zh/travel/bangkok-street-food-odyssey.md",
+          "title": "曼谷街头美食奥德赛：72小时，什么都吃",
+          "excerpt": "三天深入曼谷街头美食——从唐人街的午夜泰式炒河粉，到一家开了50年的老摊上的黎明米粥，一口一口追溯这座城市的饮食DNA。",
+          "readTime": 18,
+          "sourceHash": "47a6ce0af131b587",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/travel/bangkok-street-food-odyssey.md",
+          "title": "曼谷街頭美食奧德賽：72小時，什麼都吃",
+          "excerpt": "花三天一頭栽進曼谷的街頭小吃——從中國城的午夜泰式炒河粉，到開了50年的老攤清晨米粥，一口一口追溯這座城市的飲食DNA。",
+          "readTime": 18,
+          "sourceHash": "47a6ce0af131b587",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/travel/bangkok-street-food-odyssey.md",
+          "title": "バンコク屋台オデッセイ：72時間、なんでも食べ尽くす",
+          "excerpt": "バンコクの屋台料理を三日間かけて深掘りします——チャイナタウンの真夜中のパッタイから、創業50年の屋台で食べる夜明けのお粥まで、ひと口ずつこの街の食のDNAをたどる旅です。",
+          "readTime": 18,
+          "sourceHash": "47a6ce0af131b587",
+          "stale": false
+        }
+      ]
     },
     {
       "slug": "tech/gorm-preload-mechanism",
@@ -108,7 +149,38 @@
         "Performance"
       ],
       "readTime": 8,
-      "featured": true
+      "featured": true,
+      "lang": "en",
+      "sourceHash": "9ba715d6fe209335",
+      "translations": [
+        {
+          "lang": "zh",
+          "path": "i18n/zh/tech/gorm-preload-mechanism.md",
+          "title": "深入解析 GORM 的 Preload 机制",
+          "excerpt": "弄清 GORM 的 Preload 在底层是如何工作的——从懒加载的陷阱，到 Go 微服务中经过优化的预加载策略。",
+          "readTime": 8,
+          "sourceHash": "9ba715d6fe209335",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/tech/gorm-preload-mechanism.md",
+          "title": "深入剖析 GORM 的 Preload 機制",
+          "excerpt": "了解 GORM 的 Preload 在底層是怎麼運作的——從延遲載入的陷阱，到 Go 微服務中最佳化過的預先載入策略。",
+          "readTime": 8,
+          "sourceHash": "9ba715d6fe209335",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/tech/gorm-preload-mechanism.md",
+          "title": "GORM の Preload の仕組みを深掘りする",
+          "excerpt": "GORM の Preload が内部でどう動いているのかを理解します。遅延ロードの落とし穴から、Go マイクロサービスにおける最適化された Eager Loading の戦略まで。",
+          "readTime": 8,
+          "sourceHash": "9ba715d6fe209335",
+          "stale": false
+        }
+      ]
     },
     {
       "slug": "travel/singapore-hawker-culture",
@@ -128,7 +200,38 @@
         "Culture"
       ],
       "readTime": 6,
-      "featured": false
+      "featured": false,
+      "lang": "en",
+      "sourceHash": "a378b66d8c5441d4",
+      "translations": [
+        {
+          "lang": "zh",
+          "path": "i18n/zh/travel/singapore-hawker-culture.md",
+          "title": "新加坡小贩文化：一场美食之旅",
+          "excerpt": "探访新加坡获联合国教科文组织认可的小贩中心——从麦士威熟食中心到老巴刹，寻找本地美食的灵魂。",
+          "readTime": 6,
+          "sourceHash": "a378b66d8c5441d4",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/travel/singapore-hawker-culture.md",
+          "title": "新加坡小販文化：一趟美食之旅",
+          "excerpt": "走訪新加坡獲聯合國教科文組織認可的小販中心——從麥士威熟食中心到老巴剎，探尋在地美食的靈魂。",
+          "readTime": 6,
+          "sourceHash": "a378b66d8c5441d4",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/travel/singapore-hawker-culture.md",
+          "title": "シンガポールのホーカー文化：食をめぐる旅",
+          "excerpt": "ユネスコに認められたシンガポールのホーカーセンターを、マックスウェル・フードセンターからラオパサまで巡り、ローカルフードの魂を探ります。",
+          "readTime": 6,
+          "sourceHash": "a378b66d8c5441d4",
+          "stale": false
+        }
+      ]
     },
     {
       "slug": "finance/photonics-supply-chain-notes",
@@ -150,7 +253,10 @@
         "供应链"
       ],
       "readTime": 10,
-      "featured": false
+      "featured": false,
+      "lang": "zh",
+      "sourceHash": "236d68e08d4e0f15",
+      "translations": []
     },
     {
       "slug": "tech/redis-cache-architecture",
@@ -171,7 +277,10 @@
         "Go"
       ],
       "readTime": 12,
-      "featured": true
+      "featured": true,
+      "lang": "en",
+      "sourceHash": "4f77e7abed2a2a0b",
+      "translations": []
     },
     {
       "slug": "tech/kafka-cross-pod-broadcasting",
@@ -192,7 +301,10 @@
         "Go"
       ],
       "readTime": 10,
-      "featured": true
+      "featured": true,
+      "lang": "en",
+      "sourceHash": "e5b3680afea61336",
+      "translations": []
     },
     {
       "slug": "travel/japan-temple-hopping",
@@ -213,7 +325,38 @@
         "Culture"
       ],
       "readTime": 7,
-      "featured": false
+      "featured": false,
+      "lang": "en",
+      "sourceHash": "2ebabeba3ef9e23b",
+      "translations": [
+        {
+          "lang": "zh",
+          "path": "i18n/zh/travel/japan-temple-hopping.md",
+          "title": "京都寻寺：走出观光路线",
+          "excerpt": "在京都那些不太出名的寺庙里寻找宁静——远离金阁寺的人潮，走进祇王寺的苔庭和化野念佛寺的竹林小径。",
+          "readTime": 7,
+          "sourceHash": "2ebabeba3ef9e23b",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/travel/japan-temple-hopping.md",
+          "title": "京都尋寺：走出觀光客的路線",
+          "excerpt": "在京都比較少人知道的寺廟裡尋找寧靜——遠離金閣寺的人潮，走進祇王寺的青苔庭園與化野念佛寺的竹林小徑。",
+          "readTime": 7,
+          "sourceHash": "2ebabeba3ef9e23b",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/travel/japan-temple-hopping.md",
+          "title": "京都の寺めぐり：観光ルートの外へ",
+          "excerpt": "京都のあまり知られていない寺で静けさを見つける——金閣寺の人混みを離れ、祇王寺の苔庭と化野念仏寺の竹の小径へ。",
+          "readTime": 7,
+          "sourceHash": "2ebabeba3ef9e23b",
+          "stale": false
+        }
+      ]
     }
   ]
 }

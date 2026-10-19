@@ -1,5 +1,6 @@
 ---
 title: "光模块产业链的思考与总结"
+lang: "zh"
 topic: "finance"
 type: "note"
 status: "draft"

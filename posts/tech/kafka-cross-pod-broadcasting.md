@@ -1,5 +1,6 @@
 ---
 title: "Cross-Pod Message Broadcasting with Kafka"
+lang: "en"
 topic: "tech"
 type: "essay"
 status: "draft"

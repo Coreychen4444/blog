@@ -1,5 +1,6 @@
 ---
 title: "Singapore Hawker Culture: A Food Journey"
+lang: "en"
 topic: "travel"
 type: "essay"
 status: "published"
