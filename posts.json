@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T00:38:39.061Z",
+  "generatedAt": "2026-10-20T00:48:57.478Z",
   "count": 8,
   "posts": [
     {
@@ -10,7 +10,7 @@
       "topic": "ai",
       "type": "essay",
       "status": "published",
-      "date": "2026-10-20",
+      "date": "2026-10-07",
       "updatedDate": null,
       "excerpt": "AI能读懂你之后，豪车、名表和名校还剩多少分量？",
       "author": "Corey Chen",
