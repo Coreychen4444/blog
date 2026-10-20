@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T00:22:26.657Z",
-  "count": 10,
+  "generatedAt": "2026-10-20T00:33:47.153Z",
+  "count": 8,
   "posts": [
     {
       "slug": "ai/end-of-traditional-social-currency",
@@ -9,8 +9,8 @@
       "title": "传统社交货币在AI时代的落幕",
       "topic": "ai",
       "type": "essay",
-      "status": "draft",
-      "date": "2026-10-07",
+      "status": "published",
+      "date": "2026-10-20",
       "updatedDate": null,
       "excerpt": "AI能读懂你之后，豪车、名表和名校还剩多少分量？",
       "author": "Corey Chen",
@@ -25,7 +25,123 @@
       "featured": false,
       "lang": "zh",
       "sourceHash": "1bd45929ff730006",
-      "translations": []
+      "translations": [
+        {
+          "lang": "en",
+          "path": "i18n/en/ai/end-of-traditional-social-currency.md",
+          "title": "The End of Traditional Social Currency in the Age of AI",
+          "excerpt": "Once AI can actually read who you are, how much weight do luxury cars, fine watches and elite schools still carry?",
+          "readTime": 11,
+          "tags": [
+            "AI Agent",
+            "Digital twin",
+            "Blockchain",
+            "Social currency"
+          ],
+          "sourceHash": "1bd45929ff730006",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/ai/end-of-traditional-social-currency.md",
+          "title": "傳統社交貨幣在 AI 時代的落幕",
+          "excerpt": "AI 能讀懂你之後，豪車、名錶和名校還剩多少分量？",
+          "readTime": 9,
+          "tags": [
+            "AI Agent",
+            "數位分身",
+            "區塊鏈",
+            "社交貨幣"
+          ],
+          "sourceHash": "1bd45929ff730006",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/ai/end-of-traditional-social-currency.md",
+          "title": "AI 時代、従来の「ソーシャル・カレンシー」は幕を下ろす",
+          "excerpt": "AI があなたを読み解けるようになったら、高級車や高級時計、名門校の重みはどれだけ残るのでしょうか。",
+          "readTime": 11,
+          "tags": [
+            "AI Agent",
+            "デジタルツイン",
+            "ブロックチェーン",
+            "ソーシャル・カレンシー"
+          ],
+          "sourceHash": "1bd45929ff730006",
+          "stale": false
+        }
+      ]
+    },
+    {
+      "slug": "travel/japan-trip-insights",
+      "path": "posts/travel/japan-trip-insights.md",
+      "title": "日本旅行的洞察与思考：人、物、城",
+      "topic": "travel",
+      "type": "essay",
+      "status": "published",
+      "date": "2026-10-20",
+      "updatedDate": null,
+      "excerpt": "去了五次日本，真正吸引我的不是红叶和烟花，而是风景背后的逻辑：人的克制、物的体贴、城的效率，最后都指向“尊重”。",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "日本",
+        "城市规划",
+        "设计",
+        "旅行"
+      ],
+      "readTime": 8,
+      "featured": false,
+      "lang": "zh",
+      "sourceHash": "f2f686ab3c5c988e",
+      "translations": [
+        {
+          "lang": "en",
+          "path": "i18n/en/travel/japan-trip-insights.md",
+          "title": "Insights and Reflections from Japan: People, Things, Cities",
+          "excerpt": "Five trips to Japan, and what draws me isn't the autumn leaves or the fireworks but the logic behind the scenery: restrained people, considerate things, efficient cities, all pointing to “respect.”",
+          "readTime": 9,
+          "tags": [
+            "Japan",
+            "Urban planning",
+            "Design",
+            "Travel"
+          ],
+          "sourceHash": "f2f686ab3c5c988e",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/travel/japan-trip-insights.md",
+          "title": "日本旅行的洞察與思考：人、物、城",
+          "excerpt": "去了五次日本，真正吸引我的不是紅葉和煙火，而是風景背後的邏輯：人的克制、物的體貼、城的效率，最後都指向「尊重」。",
+          "readTime": 8,
+          "tags": [
+            "日本",
+            "都市計畫",
+            "設計",
+            "旅行"
+          ],
+          "sourceHash": "f2f686ab3c5c988e",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/travel/japan-trip-insights.md",
+          "title": "日本旅行で気づいたこと、考えたこと：人・モノ・街",
+          "excerpt": "日本を訪れて 5 回。本当に惹かれるのは紅葉や花火ではなく、風景の背後にある論理です。人の慎み、モノの気配り、街の効率。そのすべてが「尊重」につながっています。",
+          "readTime": 9,
+          "tags": [
+            "日本",
+            "都市計画",
+            "デザイン",
+            "旅行"
+          ],
+          "sourceHash": "f2f686ab3c5c988e",
+          "stale": false
+        }
+      ]
     },
     {
       "slug": "trading/market-traffic-signal-phase-theory",
@@ -78,59 +194,6 @@
       "translations": []
     },
     {
-      "slug": "travel/bangkok-street-food-odyssey",
-      "path": "posts/travel/bangkok-street-food-odyssey.md",
-      "title": "Bangkok Street Food Odyssey: 72 Hours of Eating Everything",
-      "topic": "travel",
-      "type": "essay",
-      "status": "draft",
-      "date": "2026-04-01",
-      "updatedDate": null,
-      "excerpt": "A three-day deep dive into Bangkok's street food scene — from midnight pad thai in Chinatown to dawn congee at a 50-year-old stall, tracing the city's culinary DNA one bite at a time.",
-      "author": "Corey Chen",
-      "authorUrl": null,
-      "tags": [
-        "Thailand",
-        "Bangkok",
-        "Food",
-        "Street Food",
-        "Culture"
-      ],
-      "readTime": 18,
-      "featured": false,
-      "lang": "en",
-      "sourceHash": "47a6ce0af131b587",
-      "translations": [
-        {
-          "lang": "zh",
-          "path": "i18n/zh/travel/bangkok-street-food-odyssey.md",
-          "title": "曼谷街头美食奥德赛：72小时，什么都吃",
-          "excerpt": "三天深入曼谷街头美食——从唐人街的午夜泰式炒河粉，到一家开了50年的老摊上的黎明米粥，一口一口追溯这座城市的饮食DNA。",
-          "readTime": 18,
-          "sourceHash": "47a6ce0af131b587",
-          "stale": false
-        },
-        {
-          "lang": "zh-TW",
-          "path": "i18n/zh-TW/travel/bangkok-street-food-odyssey.md",
-          "title": "曼谷街頭美食奧德賽：72小時，什麼都吃",
-          "excerpt": "花三天一頭栽進曼谷的街頭小吃——從中國城的午夜泰式炒河粉，到開了50年的老攤清晨米粥，一口一口追溯這座城市的飲食DNA。",
-          "readTime": 18,
-          "sourceHash": "47a6ce0af131b587",
-          "stale": false
-        },
-        {
-          "lang": "ja",
-          "path": "i18n/ja/travel/bangkok-street-food-odyssey.md",
-          "title": "バンコク屋台オデッセイ：72時間、なんでも食べ尽くす",
-          "excerpt": "バンコクの屋台料理を三日間かけて深掘りします——チャイナタウンの真夜中のパッタイから、創業50年の屋台で食べる夜明けのお粥まで、ひと口ずつこの街の食のDNAをたどる旅です。",
-          "readTime": 18,
-          "sourceHash": "47a6ce0af131b587",
-          "stale": false
-        }
-      ]
-    },
-    {
       "slug": "tech/gorm-preload-mechanism",
       "path": "posts/tech/gorm-preload-mechanism.md",
       "title": "Deep Dive into GORM Preload Mechanism",
@@ -159,6 +222,12 @@
           "title": "深入解析 GORM 的 Preload 机制",
           "excerpt": "弄清 GORM 的 Preload 在底层是如何工作的——从懒加载的陷阱，到 Go 微服务中经过优化的预加载策略。",
           "readTime": 8,
+          "tags": [
+            "Go",
+            "GORM",
+            "MySQL",
+            "性能"
+          ],
           "sourceHash": "9d4c34ec9e12d499",
           "stale": false
         },
@@ -168,6 +237,12 @@
           "title": "深入剖析 GORM 的 Preload 機制",
           "excerpt": "了解 GORM 的 Preload 在底層是怎麼運作的——從延遲載入的陷阱，到 Go 微服務中最佳化過的預先載入策略。",
           "readTime": 8,
+          "tags": [
+            "Go",
+            "GORM",
+            "MySQL",
+            "效能"
+          ],
           "sourceHash": "9d4c34ec9e12d499",
           "stale": false
         },
@@ -177,58 +252,13 @@
           "title": "GORM の Preload の仕組みを深掘りする",
           "excerpt": "GORM の Preload が内部でどう動いているのかを理解します。遅延ロードの落とし穴から、Go マイクロサービスにおける最適化された Eager Loading の戦略まで。",
           "readTime": 8,
+          "tags": [
+            "Go",
+            "GORM",
+            "MySQL",
+            "パフォーマンス"
+          ],
           "sourceHash": "9d4c34ec9e12d499",
-          "stale": false
-        }
-      ]
-    },
-    {
-      "slug": "travel/singapore-hawker-culture",
-      "path": "posts/travel/singapore-hawker-culture.md",
-      "title": "Singapore Hawker Culture: A Food Journey",
-      "topic": "travel",
-      "type": "essay",
-      "status": "draft",
-      "date": "2026-03-01",
-      "updatedDate": null,
-      "excerpt": "Exploring Singapore's UNESCO-recognized hawker centers — from Maxwell Food Centre to Lau Pa Sat, discovering the soul of local cuisine.",
-      "author": "Corey Chen",
-      "authorUrl": null,
-      "tags": [
-        "Singapore",
-        "Food",
-        "Culture"
-      ],
-      "readTime": 6,
-      "featured": false,
-      "lang": "en",
-      "sourceHash": "a378b66d8c5441d4",
-      "translations": [
-        {
-          "lang": "zh",
-          "path": "i18n/zh/travel/singapore-hawker-culture.md",
-          "title": "新加坡小贩文化：一场美食之旅",
-          "excerpt": "探访新加坡获联合国教科文组织认可的小贩中心——从麦士威熟食中心到老巴刹，寻找本地美食的灵魂。",
-          "readTime": 6,
-          "sourceHash": "a378b66d8c5441d4",
-          "stale": false
-        },
-        {
-          "lang": "zh-TW",
-          "path": "i18n/zh-TW/travel/singapore-hawker-culture.md",
-          "title": "新加坡小販文化：一趟美食之旅",
-          "excerpt": "走訪新加坡獲聯合國教科文組織認可的小販中心——從麥士威熟食中心到老巴剎，探尋在地美食的靈魂。",
-          "readTime": 6,
-          "sourceHash": "a378b66d8c5441d4",
-          "stale": false
-        },
-        {
-          "lang": "ja",
-          "path": "i18n/ja/travel/singapore-hawker-culture.md",
-          "title": "シンガポールのホーカー文化：食をめぐる旅",
-          "excerpt": "ユネスコに認められたシンガポールのホーカーセンターを、マックスウェル・フードセンターからラオパサまで巡り、ローカルフードの魂を探ります。",
-          "readTime": 6,
-          "sourceHash": "a378b66d8c5441d4",
           "stale": false
         }
       ]
@@ -262,6 +292,12 @@
           "title": "The Optical Module Supply Chain: Thoughts and Takeaways",
           "excerpt": "Breaking down the 7-step supply chain behind optical interconnects in AI data centers: the scarce steps capture the most value, and the bottlenecks are all upstream.",
           "readTime": 6,
+          "tags": [
+            "Optical modules",
+            "Photonics",
+            "AI infrastructure",
+            "Supply chain"
+          ],
           "sourceHash": "48a9aed32b608452",
           "stale": false
         },
@@ -271,6 +307,12 @@
           "title": "光模組產業鏈的思考與總結",
           "excerpt": "拆解 AI 資料中心光互連的 7 步供應鏈：稀缺環節攫取最多價值，瓶頸全部集中在上游。",
           "readTime": 7,
+          "tags": [
+            "光模組",
+            "光子學",
+            "AI 基礎設施",
+            "供應鏈"
+          ],
           "sourceHash": "48a9aed32b608452",
           "stale": false
         },
@@ -280,6 +322,12 @@
           "title": "光モジュールのサプライチェーンに関する考察とまとめ",
           "excerpt": "AI データセンターの光インターコネクトを支える 7 ステップのサプライチェーンを分解します。希少な工程ほど多くの価値を獲得し、ボトルネックはすべて上流に集中しています。",
           "readTime": 8,
+          "tags": [
+            "光モジュール",
+            "フォトニクス",
+            "AI インフラ",
+            "サプライチェーン"
+          ],
           "sourceHash": "48a9aed32b608452",
           "stale": false
         }
@@ -332,58 +380,6 @@
       "lang": "en",
       "sourceHash": "e5b3680afea61336",
       "translations": []
-    },
-    {
-      "slug": "travel/japan-temple-hopping",
-      "path": "posts/travel/japan-temple-hopping.md",
-      "title": "Temple Hopping in Kyoto: Beyond the Tourist Trail",
-      "topic": "travel",
-      "type": "essay",
-      "status": "draft",
-      "date": "2025-12-15",
-      "updatedDate": null,
-      "excerpt": "Finding serenity in Kyoto's lesser-known temples — away from the crowds of Kinkaku-ji, into the moss gardens of Gio-ji and the bamboo paths of Adashino Nenbutsu-ji.",
-      "author": "Corey Chen",
-      "authorUrl": null,
-      "tags": [
-        "Japan",
-        "Kyoto",
-        "Temples",
-        "Culture"
-      ],
-      "readTime": 7,
-      "featured": false,
-      "lang": "en",
-      "sourceHash": "2ebabeba3ef9e23b",
-      "translations": [
-        {
-          "lang": "zh",
-          "path": "i18n/zh/travel/japan-temple-hopping.md",
-          "title": "京都寻寺：走出观光路线",
-          "excerpt": "在京都那些不太出名的寺庙里寻找宁静——远离金阁寺的人潮，走进祇王寺的苔庭和化野念佛寺的竹林小径。",
-          "readTime": 7,
-          "sourceHash": "2ebabeba3ef9e23b",
-          "stale": false
-        },
-        {
-          "lang": "zh-TW",
-          "path": "i18n/zh-TW/travel/japan-temple-hopping.md",
-          "title": "京都尋寺：走出觀光客的路線",
-          "excerpt": "在京都比較少人知道的寺廟裡尋找寧靜——遠離金閣寺的人潮，走進祇王寺的青苔庭園與化野念佛寺的竹林小徑。",
-          "readTime": 7,
-          "sourceHash": "2ebabeba3ef9e23b",
-          "stale": false
-        },
-        {
-          "lang": "ja",
-          "path": "i18n/ja/travel/japan-temple-hopping.md",
-          "title": "京都の寺めぐり：観光ルートの外へ",
-          "excerpt": "京都のあまり知られていない寺で静けさを見つける——金閣寺の人混みを離れ、祇王寺の苔庭と化野念仏寺の竹の小径へ。",
-          "readTime": 7,
-          "sourceHash": "2ebabeba3ef9e23b",
-          "stale": false
-        }
-      ]
     }
   ]
 }

@@ -4,6 +4,7 @@ lang: "ja"
 title: "GORM の Preload の仕組みを深掘りする"
 excerpt: "GORM の Preload が内部でどう動いているのかを理解します。遅延ロードの落とし穴から、Go マイクロサービスにおける最適化された Eager Loading の戦略まで。"
 readTime: 8
+tags: ["Go", "GORM", "MySQL", "パフォーマンス"]
 sourceHash: "9d4c34ec9e12d499"
 ---
 

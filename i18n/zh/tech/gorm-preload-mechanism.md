@@ -4,6 +4,7 @@ lang: "zh"
 title: "深入解析 GORM 的 Preload 机制"
 excerpt: "弄清 GORM 的 Preload 在底层是如何工作的——从懒加载的陷阱，到 Go 微服务中经过优化的预加载策略。"
 readTime: 8
+tags: ["Go", "GORM", "MySQL", "性能"]
 sourceHash: "9d4c34ec9e12d499"
 ---
 

@@ -22,7 +22,8 @@ import { createHash } from "node:crypto";
 export const LANGS = ["en", "zh", "zh-TW", "ja"];
 
 /** Fields a translation inherits from its original. */
-export const INHERITED = ["topic", "type", "status", "date", "updatedDate", "tags", "featured", "author", "authorUrl"];
+// `tags` is NOT inherited: a translation may carry its own localized tags (same count and order as the original).
+export const INHERITED = ["topic", "type", "status", "date", "updatedDate", "featured", "author", "authorUrl"];
 
 /** Split a Markdown file into { data, body }. Returns null without a frontmatter block. */
 export function parseFrontmatter(raw) {

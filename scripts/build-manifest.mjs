@@ -153,6 +153,8 @@ async function main() {
       title: fm.title,
       excerpt: fm.excerpt,
       readTime: fm.readTime ?? original.readTime,
+      // Localized tags (same count and order as the original); falls back to the original's.
+      ...(Array.isArray(fm.tags) && fm.tags.length ? { tags: fm.tags } : {}),
       sourceHash: hash || null,
       stale,
     });
