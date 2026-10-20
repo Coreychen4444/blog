@@ -10,7 +10,7 @@ author: "Corey Chen"
 authorUrl: "https://coreyverse.dev"
 tags: ["AI Agent", "数字分身", "区块链", "社交货币"]
 readTime: 9
-featured: false
+featured: true
 ---
 
 从 Muse 爆火出发，聊聊 AI Agent 时代的身份、信誉与社交网络。

@@ -9,7 +9,7 @@ excerpt: "How we designed a multi-layer Redis caching strategy for our user serv
 author: "Corey Chen"
 tags: ["Redis", "Architecture", "Caching", "Go"]
 readTime: 12
-featured: true
+featured: false
 ---
 
 Caching is not just about putting data in Redis. A well-designed cache architecture has to answer invalidation, stampede prevention, cross-service consistency, and the occasional 3 AM page when the hit rate falls off a cliff. After three rewrites, the user service I work on settled into what internally we just call the "7 layers" — a set of caches that sit in front of MySQL and shoulder roughly 94% of the read traffic.

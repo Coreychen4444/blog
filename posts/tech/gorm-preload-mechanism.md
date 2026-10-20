@@ -9,7 +9,7 @@ excerpt: "Understanding how GORM's Preload works under the hood — from lazy lo
 author: "Corey Chen"
 tags: ["Go", "GORM", "MySQL", "Performance"]
 readTime: 8
-featured: true
+featured: false
 ---
 
 GORM's `Preload` is one of the most powerful features for handling relational data in Go. But without understanding its internals, it's easy to fall into N+1 query traps that silently hurt your service's performance. Preload's convenience has a price, and the price is paid in round trips, not CPU.

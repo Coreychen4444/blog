@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T00:50:16.893Z",
+  "generatedAt": "2026-10-20T02:19:55.553Z",
   "count": 8,
   "posts": [
     {
@@ -22,7 +22,7 @@
         "社交货币"
       ],
       "readTime": 9,
-      "featured": false,
+      "featured": true,
       "lang": "zh",
       "sourceHash": "1bd45929ff730006",
       "translations": [
@@ -99,29 +99,78 @@
       "translations": []
     },
     {
-      "slug": "travel/tokyo-yokohama-solo-trip-2026",
-      "path": "posts/travel/tokyo-yokohama-solo-trip-2026.md",
-      "title": "Tokyo + Yokohama Solo Trip · 2026.5.15-5.21",
+      "slug": "travel/yokohama-solo-trip-2026",
+      "path": "posts/travel/yokohama-solo-trip-2026.md",
+      "title": "后花园里的一次清空：一次横滨独旅",
       "topic": "travel",
-      "type": "note",
-      "status": "draft",
-      "date": "2026-06-10",
+      "type": "essay",
+      "status": "published",
+      "date": "2026-05-21",
       "updatedDate": null,
-      "excerpt": "东京横滨 6 晚独行攻略：横滨港未来、三溪园、镰仓江之岛、Shibuya Sky、新宿御苑，逐日时间表与实用提示。",
+      "excerpt": "一次临时决定的横滨独旅，让我重新理解了人真正稀缺的资源：不是时间，而是脑力。把琐事交给系统和 AI，把注意力留给真正重要的思考。",
       "author": "Corey Chen",
       "authorUrl": "https://coreyverse.dev",
       "tags": [
-        "Japan",
-        "Tokyo",
-        "Yokohama",
-        "Kamakura",
-        "Itinerary"
+        "日本",
+        "横滨",
+        "独旅",
+        "AI",
+        "注意力"
       ],
-      "readTime": 6,
+      "readTime": 9,
       "featured": false,
       "lang": "zh",
-      "sourceHash": "8ad1b3a915a3694b",
-      "translations": []
+      "sourceHash": "dad72dea68df2582",
+      "translations": [
+        {
+          "lang": "en",
+          "path": "i18n/en/travel/yokohama-solo-trip-2026.md",
+          "title": "A Reset in My Backyard: A Solo Trip to Yokohama",
+          "excerpt": "A spur-of-the-moment solo trip to Yokohama made me rethink the resource people are truly short on: not time, but brainpower. Hand the chores to systems and AI, and keep your attention for the thinking that really matters.",
+          "readTime": 8,
+          "tags": [
+            "Japan",
+            "Yokohama",
+            "Solo travel",
+            "AI",
+            "Attention"
+          ],
+          "sourceHash": "dad72dea68df2582",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/travel/yokohama-solo-trip-2026.md",
+          "title": "後花園裡的一次清空：一次橫濱獨旅",
+          "excerpt": "一次臨時決定的橫濱獨旅，讓我重新理解了人真正稀缺的資源：不是時間，而是腦力。把瑣事交給系統和 AI，把注意力留給真正重要的思考。",
+          "readTime": 9,
+          "tags": [
+            "日本",
+            "橫濱",
+            "獨旅",
+            "AI",
+            "注意力"
+          ],
+          "sourceHash": "dad72dea68df2582",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/travel/yokohama-solo-trip-2026.md",
+          "title": "裏庭でのリセット：横浜ひとり旅",
+          "excerpt": "思い立って出かけた横浜へのひとり旅で、人にとって本当に希少な資源は時間ではなく脳のリソースだと気づき直しました。雑事はシステムと AI に任せ、注意力は本当に大切な思考のために残しておく。",
+          "readTime": 10,
+          "tags": [
+            "日本",
+            "横浜",
+            "ひとり旅",
+            "AI",
+            "注意力"
+          ],
+          "sourceHash": "dad72dea68df2582",
+          "stale": false
+        }
+      ]
     },
     {
       "slug": "tech/gorm-preload-mechanism",
@@ -142,7 +191,7 @@
         "Performance"
       ],
       "readTime": 8,
-      "featured": true,
+      "featured": false,
       "lang": "en",
       "sourceHash": "9d4c34ec9e12d499",
       "translations": [
@@ -282,7 +331,7 @@
         "Go"
       ],
       "readTime": 12,
-      "featured": true,
+      "featured": false,
       "lang": "en",
       "sourceHash": "4f77e7abed2a2a0b",
       "translations": []
@@ -306,7 +355,7 @@
         "Go"
       ],
       "readTime": 10,
-      "featured": true,
+      "featured": false,
       "lang": "en",
       "sourceHash": "e5b3680afea61336",
       "translations": []
@@ -330,7 +379,7 @@
         "旅行"
       ],
       "readTime": 8,
-      "featured": false,
+      "featured": true,
       "lang": "zh",
       "sourceHash": "f2f686ab3c5c988e",
       "translations": [

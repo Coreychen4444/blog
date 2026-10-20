@@ -9,7 +9,7 @@ excerpt: "Solving the multi-instance WebSocket broadcasting problem using Kafka 
 author: "Corey Chen"
 tags: ["Kafka", "WebSocket", "Distributed Systems", "Go"]
 readTime: 10
-featured: true
+featured: false
 ---
 
 When you scale a WebSocket service to multiple pods, you hit a problem that single-pod deployments never see: **how does a message sent to Pod A reach a user connected to Pod B?** It looks trivial on a whiteboard. It isn't. What follows is the architecture we landed on after burning through two simpler designs, why those simpler designs failed, and the operational lessons that came with running this at 100k concurrent connections.
