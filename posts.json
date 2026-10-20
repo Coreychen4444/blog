@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T00:34:11.473Z",
+  "generatedAt": "2026-10-20T00:38:27.485Z",
   "count": 8,
   "posts": [
     {
@@ -69,76 +69,6 @@
             "ソーシャル・カレンシー"
           ],
           "sourceHash": "1bd45929ff730006",
-          "stale": false
-        }
-      ]
-    },
-    {
-      "slug": "travel/japan-trip-insights",
-      "path": "posts/travel/japan-trip-insights.md",
-      "title": "日本旅行的洞察与思考：人、物、城",
-      "topic": "travel",
-      "type": "essay",
-      "status": "published",
-      "date": "2026-10-20",
-      "updatedDate": null,
-      "excerpt": "去了五次日本，真正吸引我的不是红叶和烟花，而是风景背后的逻辑：人的克制、物的体贴、城的效率，最后都指向“尊重”。",
-      "author": "Corey Chen",
-      "authorUrl": "https://coreyverse.dev",
-      "tags": [
-        "日本",
-        "城市规划",
-        "设计",
-        "旅行"
-      ],
-      "readTime": 8,
-      "featured": false,
-      "lang": "zh",
-      "sourceHash": "f2f686ab3c5c988e",
-      "translations": [
-        {
-          "lang": "en",
-          "path": "i18n/en/travel/japan-trip-insights.md",
-          "title": "Insights and Reflections from Japan: People, Things, Cities",
-          "excerpt": "Five trips to Japan, and what draws me isn't the autumn leaves or the fireworks but the logic behind the scenery: restrained people, considerate things, efficient cities, all pointing to “respect.”",
-          "readTime": 9,
-          "tags": [
-            "Japan",
-            "Urban planning",
-            "Design",
-            "Travel"
-          ],
-          "sourceHash": "f2f686ab3c5c988e",
-          "stale": false
-        },
-        {
-          "lang": "zh-TW",
-          "path": "i18n/zh-TW/travel/japan-trip-insights.md",
-          "title": "日本旅行的洞察與思考：人、物、城",
-          "excerpt": "去了五次日本，真正吸引我的不是紅葉和煙火，而是風景背後的邏輯：人的克制、物的體貼、城的效率，最後都指向「尊重」。",
-          "readTime": 8,
-          "tags": [
-            "日本",
-            "都市計畫",
-            "設計",
-            "旅行"
-          ],
-          "sourceHash": "f2f686ab3c5c988e",
-          "stale": false
-        },
-        {
-          "lang": "ja",
-          "path": "i18n/ja/travel/japan-trip-insights.md",
-          "title": "日本旅行で気づいたこと、考えたこと：人・モノ・街",
-          "excerpt": "日本を訪れて 5 回。本当に惹かれるのは紅葉や花火ではなく、風景の背後にある論理です。人の慎み、モノの気配り、街の効率。そのすべてが「尊重」につながっています。",
-          "readTime": 9,
-          "tags": [
-            "日本",
-            "都市計画",
-            "デザイン",
-            "旅行"
-          ],
-          "sourceHash": "f2f686ab3c5c988e",
           "stale": false
         }
       ]
@@ -380,6 +310,76 @@
       "lang": "en",
       "sourceHash": "e5b3680afea61336",
       "translations": []
+    },
+    {
+      "slug": "travel/japan-trip-insights",
+      "path": "posts/travel/japan-trip-insights.md",
+      "title": "日本旅行的洞察与思考：人、物、城",
+      "topic": "travel",
+      "type": "essay",
+      "status": "published",
+      "date": "2026-01-10",
+      "updatedDate": null,
+      "excerpt": "去了五次日本，真正吸引我的不是红叶和烟花，而是风景背后的逻辑：人的克制、物的体贴、城的效率，最后都指向“尊重”。",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "日本",
+        "城市规划",
+        "设计",
+        "旅行"
+      ],
+      "readTime": 8,
+      "featured": false,
+      "lang": "zh",
+      "sourceHash": "f2f686ab3c5c988e",
+      "translations": [
+        {
+          "lang": "en",
+          "path": "i18n/en/travel/japan-trip-insights.md",
+          "title": "Insights and Reflections from Japan: People, Things, Cities",
+          "excerpt": "Five trips to Japan, and what draws me isn't the autumn leaves or the fireworks but the logic behind the scenery: restrained people, considerate things, efficient cities, all pointing to “respect.”",
+          "readTime": 9,
+          "tags": [
+            "Japan",
+            "Urban planning",
+            "Design",
+            "Travel"
+          ],
+          "sourceHash": "f2f686ab3c5c988e",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/travel/japan-trip-insights.md",
+          "title": "日本旅行的洞察與思考：人、物、城",
+          "excerpt": "去了五次日本，真正吸引我的不是紅葉和煙火，而是風景背後的邏輯：人的克制、物的體貼、城的效率，最後都指向「尊重」。",
+          "readTime": 8,
+          "tags": [
+            "日本",
+            "都市計畫",
+            "設計",
+            "旅行"
+          ],
+          "sourceHash": "f2f686ab3c5c988e",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/travel/japan-trip-insights.md",
+          "title": "日本旅行で気づいたこと、考えたこと：人・モノ・街",
+          "excerpt": "日本を訪れて 5 回。本当に惹かれるのは紅葉や花火ではなく、風景の背後にある論理です。人の慎み、モノの気配り、街の効率。そのすべてが「尊重」につながっています。",
+          "readTime": 9,
+          "tags": [
+            "日本",
+            "都市計画",
+            "デザイン",
+            "旅行"
+          ],
+          "sourceHash": "f2f686ab3c5c988e",
+          "stale": false
+        }
+      ]
     }
   ]
 }
