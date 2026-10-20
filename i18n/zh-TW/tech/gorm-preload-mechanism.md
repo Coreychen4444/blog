@@ -4,7 +4,7 @@ lang: "zh-TW"
 title: "深入剖析 GORM 的 Preload 機制"
 excerpt: "了解 GORM 的 Preload 在底層是怎麼運作的——從延遲載入的陷阱，到 Go 微服務中最佳化過的預先載入策略。"
 readTime: 8
-sourceHash: "9ba715d6fe209335"
+sourceHash: "9d4c34ec9e12d499"
 ---
 
 GORM 的 `Preload` 是 Go 處理關聯式資料時最強大的功能之一。但如果不了解它的內部運作，很容易掉進 N+1 查詢的陷阱，在不知不覺中拖累服務的效能。Preload 的方便是有代價的，而這筆代價是用往返次數來付，不是 CPU。
@@ -64,7 +64,7 @@ db := db.Debug().Preload("Orders").Find(&users)
 
 `Preload("Orders.Items")` 的運作方式一模一樣——遞迴進行。GORM 會執行三次查詢：users、orders（依 user_id）、items（依 order_id）。每一層是一次往返，而不是 N 次。
 
-有個不容易察覺的地方：如果有三層深、1000 筆父資料，最末層的 `IN` 清單可能會變得非常龐大。MySQL 的 `max_allowed_packet`（預設 64MB）通常吃得下，但到了某個程度，解析器本身就會變成瓶頸。我看過 `IN` 清單有 5 萬個元素的單一查詢，光是規劃執行計畫就花了 200ms。如果你要在大型結果集上分頁，就要積極地分批處理。
+有個不容易察覺的地方：如果有三層深、1000 筆父資料，最末層的 `IN` 清單可能會變得非常龐大。MySQL 的 `max_allowed_packet`（預設 64MB）通常吃得下，但到了某個程度，解析器本身就會變成瓶頸。超大的 `IN` 清單在解析和規劃執行計畫時也會變慢。如果你要在大型結果集上分頁，就要積極地分批處理。
 
 ## Preload 與 Joins：兩種不同的工具
 
@@ -77,7 +77,7 @@ SELECT * FROM users;
 SELECT * FROM orders WHERE user_id IN (...);
 ```
 
-**Joins** 會產生一條帶有 JOIN 的查詢：
+**Joins** 會產生一個帶有 JOIN 的查詢：
 
 ```sql
 SELECT users.*, orders.*
@@ -93,7 +93,7 @@ FROM users LEFT JOIN orders ON orders.user_id = users.id;
 
 ### 列重複的陷阱
 
-我曾經在一個一對多關聯上把 `Preload` 換成 `Joins`，想藉此「最佳化」一個使用者清單的端點。載入時間從 180ms 變成 2.4 秒。為什麼？每位使用者大約有 200 筆訂單，所以 join 會為每位使用者產生 200 列。500 位使用者就是 10 萬列，而且大多是重複的使用者資料。查詢本身很快——毀掉它的是網路傳輸成本和 Go 端的去重。
+在一對多關聯上把 `Preload` 換成 `Joins`，看起來像是最佳化，結果可能恰恰相反。如果每位使用者大約有 200 筆訂單，join 會為每位使用者產生 200 列。500 位使用者就是 10 萬列，而且大多是重複的使用者資料。查詢本身可能很快——真正拖後腿的是網路傳輸成本和 Go 端的去重。
 
 經驗法則：如果子資料表的基數沒有上限，就用 `Preload`。永遠如此。
 
@@ -129,7 +129,7 @@ db.Preload("Posts", func(tx *gorm.DB) *gorm.DB {
 })
 ```
 
-很醜，但它只是一次查詢。另一種做法——發出 N 次有限制筆數的查詢——正是我們一開始碰到的 N+1。
+寫法很醜，但只需要一次查詢。另一種做法——發出 N 次有限制筆數的查詢——正是我們一開始碰到的 N+1。
 
 **只選需要的欄位**——Preload 預設會用 `SELECT *` 撈資料。在寬資料表上，這很浪費：
 

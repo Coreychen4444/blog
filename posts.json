@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T23:46:54.147Z",
+  "generatedAt": "2026-10-20T00:06:58.179Z",
   "count": 10,
   "posts": [
     {
@@ -83,7 +83,7 @@
       "title": "Bangkok Street Food Odyssey: 72 Hours of Eating Everything",
       "topic": "travel",
       "type": "essay",
-      "status": "published",
+      "status": "draft",
       "date": "2026-04-01",
       "updatedDate": null,
       "excerpt": "A three-day deep dive into Bangkok's street food scene — from midnight pad thai in Chinatown to dawn congee at a 50-year-old stall, tracing the city's culinary DNA one bite at a time.",
@@ -151,7 +151,7 @@
       "readTime": 8,
       "featured": true,
       "lang": "en",
-      "sourceHash": "9ba715d6fe209335",
+      "sourceHash": "9d4c34ec9e12d499",
       "translations": [
         {
           "lang": "zh",
@@ -159,7 +159,7 @@
           "title": "深入解析 GORM 的 Preload 机制",
           "excerpt": "弄清 GORM 的 Preload 在底层是如何工作的——从懒加载的陷阱，到 Go 微服务中经过优化的预加载策略。",
           "readTime": 8,
-          "sourceHash": "9ba715d6fe209335",
+          "sourceHash": "9d4c34ec9e12d499",
           "stale": false
         },
         {
@@ -168,7 +168,7 @@
           "title": "深入剖析 GORM 的 Preload 機制",
           "excerpt": "了解 GORM 的 Preload 在底層是怎麼運作的——從延遲載入的陷阱，到 Go 微服務中最佳化過的預先載入策略。",
           "readTime": 8,
-          "sourceHash": "9ba715d6fe209335",
+          "sourceHash": "9d4c34ec9e12d499",
           "stale": false
         },
         {
@@ -177,7 +177,7 @@
           "title": "GORM の Preload の仕組みを深掘りする",
           "excerpt": "GORM の Preload が内部でどう動いているのかを理解します。遅延ロードの落とし穴から、Go マイクロサービスにおける最適化された Eager Loading の戦略まで。",
           "readTime": 8,
-          "sourceHash": "9ba715d6fe209335",
+          "sourceHash": "9d4c34ec9e12d499",
           "stale": false
         }
       ]
@@ -188,7 +188,7 @@
       "title": "Singapore Hawker Culture: A Food Journey",
       "topic": "travel",
       "type": "essay",
-      "status": "published",
+      "status": "draft",
       "date": "2026-03-01",
       "updatedDate": null,
       "excerpt": "Exploring Singapore's UNESCO-recognized hawker centers — from Maxwell Food Centre to Lau Pa Sat, discovering the soul of local cuisine.",
@@ -239,9 +239,9 @@
       "title": "光模块产业链的思考与总结",
       "topic": "finance",
       "type": "note",
-      "status": "draft",
+      "status": "published",
       "date": "2026-02-25",
-      "updatedDate": null,
+      "updatedDate": "2026-10-20",
       "excerpt": "拆解AI数据中心光互联的7步供应链：稀缺环节捕获最多价值，瓶颈全部集中在上游。",
       "author": "Corey Chen",
       "authorUrl": "https://coreyverse.dev",
@@ -249,14 +249,41 @@
         "光模块",
         "光子学",
         "AI基础设施",
-        "美股",
         "供应链"
       ],
-      "readTime": 10,
+      "readTime": 7,
       "featured": false,
       "lang": "zh",
-      "sourceHash": "236d68e08d4e0f15",
-      "translations": []
+      "sourceHash": "48a9aed32b608452",
+      "translations": [
+        {
+          "lang": "en",
+          "path": "i18n/en/finance/photonics-supply-chain-notes.md",
+          "title": "The Optical Module Supply Chain: Thoughts and Takeaways",
+          "excerpt": "Breaking down the 7-step supply chain behind optical interconnects in AI data centers: the scarce steps capture the most value, and the bottlenecks are all upstream.",
+          "readTime": 6,
+          "sourceHash": "48a9aed32b608452",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/finance/photonics-supply-chain-notes.md",
+          "title": "光模組產業鏈的思考與總結",
+          "excerpt": "拆解 AI 資料中心光互連的 7 步供應鏈：稀缺環節攫取最多價值，瓶頸全部集中在上游。",
+          "readTime": 7,
+          "sourceHash": "48a9aed32b608452",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/finance/photonics-supply-chain-notes.md",
+          "title": "光モジュールのサプライチェーンに関する考察とまとめ",
+          "excerpt": "AI データセンターの光インターコネクトを支える 7 ステップのサプライチェーンを分解します。希少な工程ほど多くの価値を獲得し、ボトルネックはすべて上流に集中しています。",
+          "readTime": 8,
+          "sourceHash": "48a9aed32b608452",
+          "stale": false
+        }
+      ]
     },
     {
       "slug": "tech/redis-cache-architecture",
@@ -312,7 +339,7 @@
       "title": "Temple Hopping in Kyoto: Beyond the Tourist Trail",
       "topic": "travel",
       "type": "essay",
-      "status": "published",
+      "status": "draft",
       "date": "2025-12-15",
       "updatedDate": null,
       "excerpt": "Finding serenity in Kyoto's lesser-known temples — away from the crowds of Kinkaku-ji, into the moss gardens of Gio-ji and the bamboo paths of Adashino Nenbutsu-ji.",

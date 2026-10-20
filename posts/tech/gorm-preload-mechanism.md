@@ -69,7 +69,7 @@ db := db.Debug().Preload("Orders").Find(&users)
 
 `Preload("Orders.Items")` works the same way — recursively. GORM runs three queries: users, orders (by user_id), items (by order_id). Each level is one round trip, not N.
 
-One subtle thing: if you have three levels deep with 1000 parents, the leaf-level `IN` list can get huge. MySQL's `max_allowed_packet` (default 64MB) usually absorbs it, but at some point the parser itself becomes the bottleneck. I've seen single queries with 50k-element `IN` lists take 200ms in planning alone. Chunk aggressively if you're paginating over large result sets.
+One subtle thing: if you have three levels deep with 1000 parents, the leaf-level `IN` list can get huge. MySQL's `max_allowed_packet` (default 64MB) usually absorbs it, but at some point the parser itself becomes the bottleneck. Very large `IN` lists also get slower to parse and plan. Chunk aggressively if you're paginating over large result sets.
 
 ## Preload vs Joins: Two Different Tools
 
@@ -98,7 +98,7 @@ The tradeoffs:
 
 ### The row-duplication trap
 
-I once "optimized" a user-list endpoint by switching from `Preload` to `Joins` on a one-to-many association. Load time went from 180ms to 2.4 seconds. Why? Each user had ~200 orders, so the join produced 200 rows per user. For 500 users that's 100k rows of mostly-duplicated user data. The query itself was fast — the wire cost and Go-side deduplication destroyed it.
+Switching from `Preload` to `Joins` on a one-to-many association looks like an optimization, and it can be the opposite. If each user has ~200 orders, the join produces 200 rows per user. For 500 users that's 100k rows of mostly-duplicated user data. The query itself may be fast — the wire cost and Go-side deduplication are what hurt.
 
 Rule of thumb: if the child table has unbounded cardinality, `Preload`. Always.
 
