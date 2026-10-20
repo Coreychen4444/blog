@@ -1,7 +1,7 @@
 ---
 title: "光模块产业链的思考与总结"
 lang: "zh"
-topic: "finance"
+topic: "trading"
 type: "note"
 status: "published"
 date: "2026-02-25"

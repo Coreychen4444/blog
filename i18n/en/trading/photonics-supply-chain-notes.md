@@ -1,5 +1,5 @@
 ---
-translatedFrom: "finance/photonics-supply-chain-notes"
+translatedFrom: "trading/photonics-supply-chain-notes"
 lang: "en"
 title: "The Optical Module Supply Chain: Thoughts and Takeaways"
 excerpt: "Breaking down the 7-step supply chain behind optical interconnects in AI data centers: the scarce steps capture the most value, and the bottlenecks are all upstream."

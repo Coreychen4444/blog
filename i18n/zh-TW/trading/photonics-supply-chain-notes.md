@@ -1,5 +1,5 @@
 ---
-translatedFrom: "finance/photonics-supply-chain-notes"
+translatedFrom: "trading/photonics-supply-chain-notes"
 lang: "zh-TW"
 title: "光模組產業鏈的思考與總結"
 excerpt: "拆解 AI 資料中心光互連的 7 步供應鏈：稀缺環節攫取最多價值，瓶頸全部集中在上游。"

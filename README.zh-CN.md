@@ -18,10 +18,10 @@
 |---|---|
 | **tech** | 后端工程、Go、分布式系统、MySQL/Redis/Kafka |
 | **travel** | 旅行随笔：美食、街巷、人 |
-| **finance** | 从第一性原理出发谈投资与市场 |
-| **thoughts** | 关于技术、社会以及未来走向的随笔 |
+| **trading** | 从第一性原理出发谈市场、投资与交易系统 |
+| **ai** | AI 与 Agent：原理、走向，以及我如何用它们搭建系统 |
 
-按主题浏览：[`posts/tech/`](posts/tech) · [`posts/travel/`](posts/travel) · [`posts/finance/`](posts/finance) · [`posts/thoughts/`](posts/thoughts)
+按主题浏览：[`posts/trading/`](posts/trading) · [`posts/tech/`](posts/tech) · [`posts/ai/`](posts/ai) · [`posts/travel/`](posts/travel)
 
 ## 转载与署名
 
@@ -47,8 +47,8 @@
 posts/
 ├── tech/       # 后端工程、Go、系统
 ├── travel/     # 随笔与美食笔记
-├── finance/    # 投资与市场
-└── thoughts/   # 关于技术、社会与未来的随笔
+├── trading/    # 市场、投资与交易系统
+└── ai/         # AI 与 Agent
 posts.json      # 自动生成的清单，请勿手动编辑
 scripts/
 └── build-manifest.mjs
@@ -66,7 +66,7 @@ LICENSE-CODE    # MIT（代码）
    ```yaml
    ---
    title: "Post title"
-   topic: "tech"           # tech | travel | finance | thoughts
+   topic: "tech"           # trading | tech | ai | travel
    type: "essay"           # essay | note | case-note
    status: "published"     # published | draft | updated
    date: "2026-04-17"

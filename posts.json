@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T00:07:10.807Z",
+  "generatedAt": "2026-10-20T00:21:47.354Z",
   "count": 10,
   "posts": [
     {
-      "slug": "thoughts/end-of-traditional-social-currency",
-      "path": "posts/thoughts/end-of-traditional-social-currency.md",
+      "slug": "ai/end-of-traditional-social-currency",
+      "path": "posts/ai/end-of-traditional-social-currency.md",
       "title": "传统社交货币在AI时代的落幕",
-      "topic": "thoughts",
+      "topic": "ai",
       "type": "essay",
       "status": "draft",
       "date": "2026-10-07",
@@ -28,10 +28,10 @@
       "translations": []
     },
     {
-      "slug": "finance/market-traffic-signal-phase-theory",
-      "path": "posts/finance/market-traffic-signal-phase-theory.md",
+      "slug": "trading/market-traffic-signal-phase-theory",
+      "path": "posts/trading/market-traffic-signal-phase-theory.md",
       "title": "市场红绿灯相位理论：从一次过马路，理解宏观交易、技术交易与投机交易",
-      "topic": "finance",
+      "topic": "trading",
       "type": "essay",
       "status": "draft",
       "date": "2026-08-30",
@@ -234,10 +234,10 @@
       ]
     },
     {
-      "slug": "finance/photonics-supply-chain-notes",
-      "path": "posts/finance/photonics-supply-chain-notes.md",
+      "slug": "trading/photonics-supply-chain-notes",
+      "path": "posts/trading/photonics-supply-chain-notes.md",
       "title": "光模块产业链的思考与总结",
-      "topic": "finance",
+      "topic": "trading",
       "type": "note",
       "status": "published",
       "date": "2026-02-25",
@@ -258,7 +258,7 @@
       "translations": [
         {
           "lang": "en",
-          "path": "i18n/en/finance/photonics-supply-chain-notes.md",
+          "path": "i18n/en/trading/photonics-supply-chain-notes.md",
           "title": "The Optical Module Supply Chain: Thoughts and Takeaways",
           "excerpt": "Breaking down the 7-step supply chain behind optical interconnects in AI data centers: the scarce steps capture the most value, and the bottlenecks are all upstream.",
           "readTime": 6,
@@ -267,7 +267,7 @@
         },
         {
           "lang": "zh-TW",
-          "path": "i18n/zh-TW/finance/photonics-supply-chain-notes.md",
+          "path": "i18n/zh-TW/trading/photonics-supply-chain-notes.md",
           "title": "光模組產業鏈的思考與總結",
           "excerpt": "拆解 AI 資料中心光互連的 7 步供應鏈：稀缺環節攫取最多價值，瓶頸全部集中在上游。",
           "readTime": 7,
@@ -276,7 +276,7 @@
         },
         {
           "lang": "ja",
-          "path": "i18n/ja/finance/photonics-supply-chain-notes.md",
+          "path": "i18n/ja/trading/photonics-supply-chain-notes.md",
           "title": "光モジュールのサプライチェーンに関する考察とまとめ",
           "excerpt": "AI データセンターの光インターコネクトを支える 7 ステップのサプライチェーンを分解します。希少な工程ほど多くの価値を獲得し、ボトルネックはすべて上流に集中しています。",
           "readTime": 8,

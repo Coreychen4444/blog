@@ -1,7 +1,7 @@
 ---
 title: "传统社交货币在AI时代的落幕"
 lang: "zh"
-topic: "thoughts"
+topic: "ai"
 type: "essay"
 status: "draft"
 date: "2026-10-07"

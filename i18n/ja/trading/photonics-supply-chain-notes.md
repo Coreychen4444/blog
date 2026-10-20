@@ -1,5 +1,5 @@
 ---
-translatedFrom: "finance/photonics-supply-chain-notes"
+translatedFrom: "trading/photonics-supply-chain-notes"
 lang: "ja"
 title: "光モジュールのサプライチェーンに関する考察とまとめ"
 excerpt: "AI データセンターの光インターコネクトを支える 7 ステップのサプライチェーンを分解します。希少な工程ほど多くの価値を獲得し、ボトルネックはすべて上流に集中しています。"
