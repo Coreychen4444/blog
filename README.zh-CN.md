@@ -16,12 +16,12 @@
 
 | 主题 | 写些什么 |
 |---|---|
+| **ai** | AI 与 Agent：原理、走向，以及我如何用它们搭建系统 |
+| **trading** | 从第一性原理出发谈市场、投资与交易系统 |
 | **tech** | 后端工程、Go、分布式系统、MySQL/Redis/Kafka |
 | **travel** | 旅行随笔：美食、街巷、人 |
-| **trading** | 从第一性原理出发谈市场、投资与交易系统 |
-| **ai** | AI 与 Agent：原理、走向，以及我如何用它们搭建系统 |
 
-按主题浏览：[`posts/trading/`](posts/trading) · [`posts/tech/`](posts/tech) · [`posts/ai/`](posts/ai) · [`posts/travel/`](posts/travel)
+按主题浏览：[`posts/ai/`](posts/ai) · [`posts/trading/`](posts/trading) · [`posts/tech/`](posts/tech) · [`posts/travel/`](posts/travel)
 
 ## 转载与署名
 
@@ -45,10 +45,10 @@
 
 ```
 posts/
-├── tech/       # 后端工程、Go、系统
-├── travel/     # 随笔与美食笔记
+├── ai/         # AI 与 Agent
 ├── trading/    # 市场、投资与交易系统
-└── ai/         # AI 与 Agent
+├── tech/       # 后端工程、Go、系统
+└── travel/     # 随笔与美食笔记
 posts.json      # 自动生成的清单，请勿手动编辑
 scripts/
 └── build-manifest.mjs
@@ -66,7 +66,7 @@ LICENSE-CODE    # MIT（代码）
    ```yaml
    ---
    title: "Post title"
-   topic: "tech"           # trading | tech | ai | travel
+   topic: "tech"           # ai | trading | tech | travel
    type: "essay"           # essay | note | case-note
    status: "published"     # published | draft | updated
    date: "2026-04-17"

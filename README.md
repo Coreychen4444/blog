@@ -19,12 +19,12 @@ in one language (often Chinese) and published in four: English, 简体中文,
 
 | Topic | What I write about |
 |---|---|
+| **ai** | AI and agents: how they work, where they're going, how I build with them |
+| **trading** | Markets, investing and trading systems, from first principles |
 | **tech** | Backend engineering, Go, distributed systems, MySQL/Redis/Kafka |
 | **travel** | Essays from trips — food, streets, people |
-| **trading** | Markets, investing and trading systems, from first principles |
-| **ai** | AI and agents: how they work, where they're going, how I build with them |
 
-Browse by topic: [`posts/trading/`](posts/trading) · [`posts/tech/`](posts/tech) · [`posts/ai/`](posts/ai) · [`posts/travel/`](posts/travel)
+Browse by topic: [`posts/ai/`](posts/ai) · [`posts/trading/`](posts/trading) · [`posts/tech/`](posts/tech) · [`posts/travel/`](posts/travel)
 
 ## Reuse and attribution
 
@@ -50,10 +50,10 @@ interest, open an issue.
 
 ```
 posts/                  # Originals, one per post
-├── tech/               # Backend engineering, Go, systems
-├── travel/             # Essays and food notes
+├── ai/                 # AI and agents
 ├── trading/            # Markets, investing and trading systems
-└── ai/                 # AI and agents
+├── tech/               # Backend engineering, Go, systems
+└── travel/             # Essays and food notes
 i18n/                   # Translations: i18n/<lang>/<topic>/<name>.md
 ├── en/  ├── zh/  ├── zh-TW/  └── ja/
 posts.json              # Auto-generated manifest — do not edit by hand
@@ -76,7 +76,7 @@ LICENSE-CODE    # MIT (code)
    ---
    title: "Post title"
    lang: "en"              # en | zh | zh-TW | ja — the language it is written in
-   topic: "tech"           # trading | tech | ai | travel
+   topic: "tech"           # ai | trading | tech | travel
    type: "essay"           # essay | note | case-note
    status: "published"     # published | draft | updated
    date: "2026-04-17"
