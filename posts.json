@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T02:20:10.341Z",
+  "generatedAt": "2026-10-27T20:59:53.350Z",
   "count": 8,
   "posts": [
     {
@@ -79,7 +79,7 @@
       "title": "市场红绿灯相位理论：从一次过马路，理解宏观交易、技术交易与投机交易",
       "topic": "trading",
       "type": "essay",
-      "status": "draft",
+      "status": "published",
       "date": "2026-08-30",
       "updatedDate": null,
       "excerpt": "宏观交易者看灯的运行逻辑，技术交易者统计灯的历史规律，投机交易者甚至不看灯——他直接看车。",
@@ -96,7 +96,56 @@
       "featured": false,
       "lang": "zh",
       "sourceHash": "feb1c3d23578b23a",
-      "translations": []
+      "translations": [
+        {
+          "lang": "en",
+          "path": "i18n/en/trading/market-traffic-signal-phase-theory.md",
+          "title": "Market Traffic-Signal Phase Theory: Understanding Macro, Technical and Speculative Trading Through One Street Crossing",
+          "excerpt": "Macro traders read the logic behind the lights, technical traders count their history, and speculative traders don’t even look — they watch the cars.",
+          "readTime": 40,
+          "tags": [
+            "Trading theory",
+            "Macro trading",
+            "Technical analysis",
+            "Speculative trading",
+            "Risk management"
+          ],
+          "sourceHash": "feb1c3d23578b23a",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/trading/market-traffic-signal-phase-theory.md",
+          "title": "市場紅綠燈相位理論：從一次過馬路，理解宏觀交易、技術交易與投機交易",
+          "excerpt": "宏觀交易者看燈的運作邏輯，技術交易者統計燈的歷史規律，投機交易者甚至不看燈——他直接看車。",
+          "readTime": 40,
+          "tags": [
+            "交易理論",
+            "宏觀交易",
+            "技術分析",
+            "投機交易",
+            "風險管理"
+          ],
+          "sourceHash": "feb1c3d23578b23a",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/trading/market-traffic-signal-phase-theory.md",
+          "title": "市場信号機フェーズ理論：一度の道路横断から理解するマクロトレード、テクニカルトレード、投機トレード",
+          "excerpt": "マクロトレーダーは信号の運行ロジックを見て、テクニカルトレーダーは信号の過去の規則性を統計し、投機トレーダーは信号すら見ません――彼は車を直接見るのです。",
+          "readTime": 40,
+          "tags": [
+            "トレード理論",
+            "マクロトレード",
+            "テクニカル分析",
+            "投機トレード",
+            "リスク管理"
+          ],
+          "sourceHash": "feb1c3d23578b23a",
+          "stale": false
+        }
+      ]
     },
     {
       "slug": "travel/yokohama-solo-trip-2026",

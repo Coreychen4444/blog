@@ -3,7 +3,7 @@ title: "市场红绿灯相位理论：从一次过马路，理解宏观交易、
 lang: "zh"
 topic: "trading"
 type: "essay"
-status: "draft"
+status: "published"
 date: "2026-08-30"
 excerpt: "宏观交易者看灯的运行逻辑，技术交易者统计灯的历史规律，投机交易者甚至不看灯——他直接看车。"
 author: "Corey Chen"
