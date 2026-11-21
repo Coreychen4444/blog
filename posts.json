@@ -1,8 +1,60 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-27T21:00:05.624Z",
-  "count": 8,
+  "generatedAt": "2026-11-21T15:28:46.660Z",
+  "count": 9,
   "posts": [
+    {
+      "slug": "tech/kafka-cascade-oom",
+      "path": "posts/tech/kafka-cascade-oom.md",
+      "title": "一次我自己引入的 OOM：在 10 级合作伙伴网络上做级联更新",
+      "topic": "tech",
+      "type": "case-note",
+      "status": "published",
+      "date": "2026-11-21",
+      "updatedDate": null,
+      "excerpt": "一次级联更新把 Kafka 消费者撑到 OOM，根因是我自己的改动。修法是先找出哪里必须串行，其余地方切批，让内存上界只取决于批大小。",
+      "author": "Corey Chen",
+      "authorUrl": "https://coreyverse.dev",
+      "tags": [
+        "Go",
+        "Kafka",
+        "MySQL",
+        "Distributed Systems"
+      ],
+      "readTime": 7,
+      "featured": false,
+      "lang": "zh",
+      "sourceHash": "41d5a2ee042ab53a",
+      "translations": [
+        {
+          "lang": "en",
+          "path": "i18n/en/tech/kafka-cascade-oom.md",
+          "title": "An OOM I Introduced Myself: Cascading Updates Down a 10-Level Partner Network",
+          "excerpt": "A cascading update pushed a Kafka consumer into OOM, and the root cause was my own change. The fix: find where order truly matters, batch everything else, and memory is bounded by batch size.",
+          "readTime": 8,
+          "sourceHash": "41d5a2ee042ab53a",
+          "stale": false
+        },
+        {
+          "lang": "zh-TW",
+          "path": "i18n/zh-TW/tech/kafka-cascade-oom.md",
+          "title": "一次我自己引入的 OOM：在 10 層合作夥伴網路上做連鎖更新",
+          "excerpt": "一次連鎖更新把 Kafka 消費者撐到 OOM，根因是我自己的改動。修法是先找出哪裡必須循序執行，其餘地方分批，讓記憶體上界只取決於批次大小。",
+          "readTime": 7,
+          "sourceHash": "41d5a2ee042ab53a",
+          "stale": false
+        },
+        {
+          "lang": "ja",
+          "path": "i18n/ja/tech/kafka-cascade-oom.md",
+          "title": "自分で引き起こした OOM：10階層のパートナーネットワークでのカスケード更新",
+          "excerpt": "カスケード更新で Kafka コンシューマーが OOM に陥り、原因は自分の変更でした。直したのは、順序が本当に必要な箇所を見極め、それ以外をバッチに分けて、メモリの上限をバッチサイズだけで決まるようにしたことです。",
+          "readTime": 9,
+          "sourceHash": "41d5a2ee042ab53a",
+          "stale": false
+        }
+      ]
+    },
     {
       "slug": "ai/end-of-traditional-social-currency",
       "path": "posts/ai/end-of-traditional-social-currency.md",
